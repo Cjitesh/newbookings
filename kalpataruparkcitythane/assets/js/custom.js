@@ -26,6 +26,7 @@ $(document).on('click','#formButton',function(){
           required: true,
       },
    otp:{
+        required: true,
     equalTo: "#modalcheck",
    },
       modalcontact:{
@@ -58,14 +59,14 @@ $(document).on('click','#formButton',function(){
   
  $(document).on('click','.sendModalOtp',function(e){
     e.preventDefault();
-    var path = 'Sheth Beaumonte Sion';
+    var path = 'Kalpataru Kolshet Thane';
     var contact = $('#modalcontact').val();
-    var mobile = '8850479108';
+    var mobile = '7900187284';
         var name = $('#modalname').val();
         var email = $('#modalemail').val();
-        var numbers = '8850479108,9323041133,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
-    var path2 = 'OTP- BST Sheth Beaumonte Sion'
+    var path2 = 'OTP- NB Kalpataru Kolshet Thane'
     $.ajax({
       // url: site_url + 'send-otp',
       url: 'https://neeadigital.com/crm/api/send-otp-lead',
@@ -138,14 +139,14 @@ $(document).on('click','#formButton',function(){
   
  $(document).on('click','.sendBannerOtp',function(e){
     e.preventDefault();
-    var path = 'Sheth Beaumonte Sion';
+    var path = 'Kalpataru Kolshet Thane';
     var contact = $('#bannercontact').val();
-    var mobile = '8850479108';
+    var mobile = '7900187284';
         var name = $('#bannername').val();
         var email = $('#banneremail').val();
-        var numbers = '8850479108,9323041133,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
-    var path2 = 'OTP- BST Sheth Beaumonte Sion'
+    var path2 = 'OTP- NB Kalpataru Kolshet Thane'
     $.ajax({
       // url: site_url + 'send-otp',
       url: 'https://neeadigital.com/crm/api/send-otp-lead',
@@ -218,14 +219,14 @@ $(document).on('click','#formButton',function(){
   
  $(document).on('click','.sendStickyOtp',function(e){
     e.preventDefault();
-    var path = 'Sheth Beaumonte Sion';
+    var path = 'Kalpataru Kolshet Thane';
     var contact = $('#stickycontact').val();
-    var mobile = '8850479108';
+    var mobile = '7900187284';
         var name = $('#stickyname').val();
         var email = $('#stickyemail').val();
-        var numbers = '8850479108,9323041133,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
-    var path2 = 'OTP- BST Sheth Beaumonte Sion'
+    var path2 = 'OTP- NB Kalpataru Kolshet Thane'
     $.ajax({
       // url: site_url + 'send-otp',
       url: 'https://neeadigital.com/crm/api/send-otp-lead',

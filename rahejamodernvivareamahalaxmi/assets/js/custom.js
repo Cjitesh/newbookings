@@ -26,6 +26,7 @@ $(document).on('click','#formButton',function(){
           required: true,
       },
    otp:{
+        required: true,
     equalTo: "#modalcheck",
    },
       modalcontact:{

@@ -64,7 +64,7 @@ $(document).on('click','#formButton',function(){
     var mobile = '7900187284';
         var name = $('#modalname').val();
         var email = $('#modalemail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Dosti Balkum Thane'
     $.ajax({
@@ -144,7 +144,7 @@ $(document).on('click','#formButton',function(){
     var mobile = '7900187284';
         var name = $('#bannername').val();
         var email = $('#banneremail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Dosti Balkum Thane'
     $.ajax({
@@ -224,7 +224,7 @@ $(document).on('click','#formButton',function(){
     var mobile = '7900187284';
         var name = $('#stickyname').val();
         var email = $('#stickyemail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '7900187284,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Dosti Balkum Thane'
     $.ajax({

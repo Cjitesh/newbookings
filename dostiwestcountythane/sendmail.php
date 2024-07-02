@@ -1,50 +1,44 @@
 <?php
 	if($_POST['formtype'] == 'banner'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['bannername'],
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
            'path' => 'DOSTI WEST COUNTY',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '478',
+           'campaign' => '624',
            'project' => '275',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'sticky'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['stickyname'],
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
            'path' => 'DOSTI WEST COUNTY',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '478',
+           'campaign' => '624',
            'project' => '275',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'modal'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['modalname'],
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
            'path' => 'DOSTI WEST COUNTY',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '478',
+           'campaign' => '624',
            'project' => '275',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}

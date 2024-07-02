@@ -1,3 +1,0 @@
-﻿User-agent: *
-Disallow:
-Sitemap:https://www.godrejkandivali.in/sitemap.xml

@@ -26,6 +26,7 @@ $(document).on('click','#formButton',function(){
             required: true,
         },
 		 otp:{
+        required: true,
 			equalTo: "#modalcheck",
 		 },
         modalcontact:{
@@ -143,7 +144,7 @@ $(document).on('click','#formButton',function(){
       var mobile = '8976738434';
           var name = $('#bannername').val();
           var email = $('#banneremail').val();
-          var numbers = '7900187284,9137692059';
+          var numbers = '9819777057,9310863636,9137692059';
         var countrycode = $('#countrycode').val();
       var path2 = 'OTP- NB Godrej Kandivali'
       $.ajax({
@@ -170,4 +171,84 @@ $(document).on('click','#formButton',function(){
     $(document).on('keyup','#bannercontact',function(){
 			$('#bannervalidate').val('');
 			$('#bannerotp').val('');
+		})
+
+ $('#stickyForm').validate({
+      rules:{
+        stickyname:{
+          required: true,
+        },
+        stickyemail:{
+          required: true,
+          email: true,
+        },
+        countrycode:{
+            required: true,
+        },
+        stickycontact:{
+          required: true,
+		  number: true,
+        },
+		 stickyotp:{
+		  required: true,
+			equalTo: "#stickycheck",
+		 }
+      },
+      messages:{
+        stickyname:{
+          required: "Please Enter Your Name",
+        },
+        stickyemail:{
+          required: "Please Enter Your Email Id",
+        },
+        countrycode:{
+          required: "Please Select Country",  
+        },
+        stickycontact:{
+          required: "Please Enter Your Contact Number",
+          number: "Please Enter Numbers only",
+		},
+		 stickyotp:{
+		  required: "Please Enter OTP",
+			 equalTo: "Please Enter Valid OTP",
+		 }
+      },
+    })
+	 
+		
+		
+	 $(document).on('click','.sendStickyOtp',function(e){
+      e.preventDefault();
+       var path = 'Godrej Kandivali';
+      var contact = $('#stickycontact').val();
+      var mobile = '8976738434';
+          var name = $('#stickyname').val();
+          var email = $('#stickyemail').val();
+          var numbers = '9819777057,9310863636,9137692059';
+        var countrycode = $('#countrycode').val();
+      var path2 = 'OTP- NB Godrej Kandivali'
+      $.ajax({
+        // url: site_url + 'send-otp',
+        url: 'https://neeadigital.com/crm/api/send-otp-lead',
+        method:'POST',
+        dataType:'json',
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },    
+        data:{path:path,contact:contact,mobile:mobile,name:name,email:email,numbers:numbers,path2:path2,countrycode:countrycode},
+
+        success:function(data){
+        if(data.status == 200){
+          $('#stickycheck').val(data.otp);
+          alert(data.message);
+        }
+        },error:function(error){
+          alert(error.responseJSON.message);
+        }
+      })
+    })
+
+    $(document).on('keyup','#stickycontact',function(){
+			$('#stickycheck').val('');
+			$('#stickyotp').val('');
 		})

@@ -5,7 +5,8 @@
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-808076997"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-808076997'); </script>
-	<!-- Event snippet for CSS- Raymond Thane conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-808076997/ojnLCL7ana4YEMWNqYED'}); </script>
+    <!-- Event snippet for Thane- Raymond Thane conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-808076997/QCe_CPDS99wYEMWNqYED'}); </script>
+
 </head>
 <body>
 <div style="margin-top:80px">

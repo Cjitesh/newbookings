@@ -4,6 +4,9 @@
 <title>TRICITY MONTVIEW SANPADA - BY TRICITY REALTY LLP</title>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-808076997"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-808076997'); </script>
+
+	<!-- Event snippet for CSR- NB- Tricity Montview Sanpada conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-808076997/xO3HCIWbuI0ZEMWNqYED'}); </script>
 </head>
 <body>
 <div style="margin-top:80px">

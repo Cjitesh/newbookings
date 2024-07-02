@@ -26,6 +26,7 @@ $(document).on('click','#formButton',function(){
           required: true,
       },
    otp:{
+        required: true,
     equalTo: "#modalcheck",
    },
       modalcontact:{
@@ -60,10 +61,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Raghav Realty Kurla East';
     var contact = $('#modalcontact').val();
-    var mobile = '8976738434';
+    var mobile = '9082090861';
         var name = $('#modalname').val();
         var email = $('#modalemail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '8097186394,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Raghav Realty Kurla East'
     $.ajax({
@@ -140,10 +141,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Raghav Realty Kurla East';
     var contact = $('#bannercontact').val();
-    var mobile = '8976738434';
+    var mobile = '9082090861';
         var name = $('#bannername').val();
         var email = $('#banneremail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '8097186394,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Raghav Realty Kurla East'
     $.ajax({
@@ -220,10 +221,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Raghav Realty Kurla East';
     var contact = $('#stickycontact').val();
-    var mobile = '8976738434';
+    var mobile = '9082090861';
         var name = $('#stickyname').val();
         var email = $('#stickyemail').val();
-        var numbers = '9819777057,9310863636,9137692059';
+        var numbers = '8097186394,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Raghav Realty Kurla East'
     $.ajax({

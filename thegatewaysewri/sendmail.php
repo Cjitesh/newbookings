@@ -48,22 +48,6 @@
            'fromname' => 'New Bookings',
        );
 	}
-    $crmdata = array(
-        "ApiKey"=>"5a42842d-9194-4ef9-85e7-09a505725662",
-        "FirstName"=>$_POST['modalname'],
-        "LastName"=>"",
-        "DialCode"=>$_POST['countrycode'],
-        "Source"=>"website",
-        "SubSource"=>"Test",
-        "Mobile"=>$_POST['modalcontact'],
-        "SecondaryNumber"=>"",
-        "CreatedDate"=>date(d/m/Y),
-        "Email"=>$_POST['modalemail'],
-        "Remark"=>"",
-        "HasVisitScheduled"=>"false",
-        "VisitDate"=>"null",
-        "ProjectName"=>"9Homes"
-    );
       $url = 'https://neeadigital.com/crm/api/insert-lead';
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -77,14 +61,6 @@
       curl_setopt($ch1, CURLOPT_URL, $url1);
       curl_setopt($ch1, CURLOPT_POSTFIELDS,$data);
       $res1 = curl_exec($ch1);
-
-      
-      $url2 = 'https://buildeskapi.azurewebsites.net/api/Webhook';
-      $ch2 = curl_init();
-      curl_setopt($ch2, CURLOPT_RETURNTRANSFER, 1);
-      curl_setopt($ch2, CURLOPT_URL, $url2);
-      curl_setopt($ch2, CURLOPT_POSTFIELDS,$crmdata);
-      $res2 = curl_exec($ch2);
     
 	header("Location: thankyou.php");
 	                  

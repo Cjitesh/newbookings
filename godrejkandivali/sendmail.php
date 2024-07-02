@@ -6,13 +6,13 @@
            'name' => $_POST['bannername'],
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
-           'path' => 'Verified- NB Godrej Kandivali',
+           'path' => 'GODREJ KANDIVALI',
           	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '394',
            'project' => '197',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'sticky'){
@@ -22,13 +22,13 @@
            'name' => $_POST['stickyname'],
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
-           'path' => 'Verified- NB Godrej Kandivali',
+           'path' => 'GODREJ KANDIVALI',
           	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '394',
            'project' => '197',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'modal'){
@@ -38,13 +38,13 @@
            'name' => $_POST['modalname'],
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
-           'path' => 'Verified- NB Godrej Kandivali',
+           'path' => 'GODREJ KANDIVALI',
           	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '394',
            'project' => '197',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}

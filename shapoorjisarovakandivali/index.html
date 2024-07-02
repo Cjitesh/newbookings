@@ -29,7 +29,7 @@
 
           <div class="col-md-3 col-12">
             <a class="navbar-brand" href="index.html">
-             <img src="assets/images/home-logo.png" class="img-fluid">
+             <!-- <img src="assets/images/home-logo.png" class="img-fluid"> -->
               <div class="brand-logo">
                 <p class="builder">SHAPOORJI</p>
                 <p class="project">SAROVA CITY</p>
@@ -103,7 +103,7 @@
             <div class="inside">
               <h2>SHAPOORJI SAROVA CITY<br>AUBBURN, SIENNA & AQUILA<br>KANDIVALI EAST</h2>
               <div class="highlight">
-                <p>PREMIUM 1.5, 2 & 3 BHK APARTMENTS STARTS  ₹1.44 CR ONWARDS*</p>
+                <p>PREMIUM 1.5, 2 & 3 BHK APARTMENTS STARTS ₹1.54 CR ONWARDS*</p>
               </div>
               <p>Land Parcel: 55 Acres</p>
               <p>Floors: 45 Storeys</p>
@@ -119,8 +119,8 @@
               </div>
               
               <form method="POST" action="sendmail.php" id="bannerForm">
-                <input type="hidden" name="bannervalidate" id="bannervalidate" class="path">
 			  		<input type="hidden" name="formtype" id="formtype" value="banner">
+			  		<input type="hidden" name="srdno" id="srdno" value="65b0c018735dafcc7e5fc88e">
                 <div class="form-group">
                   <label class="label">Name</label>
                   <input type="text" class="form-control" name="bannername" id="bannername" placeholder="Enter Name">
@@ -380,13 +380,6 @@
                     placeholder="Enter Contact Number">
                 </div>
                 <div class="form-group">
-                    <a class="btn btn-primary sendBannerOtp" style="color:#fff;">Send OTP</a>
-                </div>
-                <div class="form-group">
-                  <label class="label">Enter OTP</label>
-                  <input type="text" name="bannerotp" id="bannerotp" placeholder="Enter OTP" class="form-control">
-                </div>
-                <div class="form-group">
                   <button type="submit" class="btn btn-custom btn-white">Submit</button>
                 </div>
               </form>
@@ -440,19 +433,28 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>1.5 BHK</td>
-                        <td>594 Sq.ft.</td>
-                        <td>₹ 1.44 Cr Onwards*</td>
+                        <td>1.5 BHK Aubburn</td>
+                        <td>600 Sq.ft.</td>
+                        <td>₹ 1.54 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                       <tr>
-                        <td>2 BHK</td>
+                        <td>2 BHK Sky Vista</td>
                         <td>720 Sq.ft.</td>
-                        <td>₹ 2.06 Cr Onwards*</td>
+                        <td>₹ 2.10 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                       <tr>
-                        <td>3 BHK</td>
+                        <td>3 BHK + Deck Aquila</td>
                         <td>1076 Sq.ft.</td>
                         <td>₹ 2.79 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
+                      </tr>
+                      <tr>
+                        <td>3 BHK JODI Sky Living</td>
+                        <td>2200 Sq.ft.</td>
+                        <td>₹ 6 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                     </tbody>
                   </table>
@@ -682,30 +684,64 @@
             <div class="header text-center">
               <h2 class='title'>Disclaimer</h2>
             </div>
-            <p style="font-size:12px;">This website, managed by newbookings.in, serves as an advertisement and information medium.<br>
-              Shapoorji Pallonji Sarova City in Kandivali East is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51800025641, P51800025637, P51800026064, P51800019624.<br>
-              The marketing of this project is handled by a real estate agent registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number A51800023846.<br>
-              It is not the official website and does not facilitate transactions between the developer and visitors. The information provided on the website is for informational purposes only and should not be considered legal advice or a solicitation. Users are advised to independently verify all property/project details before making any decisions.</p>
-              <p style="font-size:12px;">Marketing & Digital Partner- <a href="https://www.performix.in/" target="_blank">Performix Digital</a></p>
+            <p style="font-size:12px;">It is not the official website and does not facilitate transactions between the developer and visitors. The information provided on the website is for informational purposes only and should not be considered legal advice or a solicitation. Users are advised to independently verify all property/project details before making any decisions.<br>
+              The marketing of this project is handled by a real estate agent registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number A51900038322.<br>
+              Shapoorji Pallonji Sarova City in Kandivali East is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51800019624, P51800019658, P51800019659, P51800019643, P51800019677, P51800019693, P51800000879, P51800004355, P51800001784.</p>
+              <p style="font-size:12px;">Media Partner: <a href="https://www.performix.in/" target="_blank">Performix Digital</a></p>
+          </div>
+        </div>
+        <div class="row text-center" style="color:#fff;">
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr1.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr2.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr3.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr4.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr5.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr6.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr7.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr8.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr9.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr10.jpeg" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12 mtb-10">
+            <img src="assets/images/qr11.jpg" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="floating-mobile">
         <div class="contact">
-            <a class="floating-call" id="formButton" title="Consult Us">
-              <i class="fa fa-solid fa-download"></i><br>Download Brochure
-            </a>
-            <a class="floating-whattsapp" id="formButton" title="Whattsapp Us on">
+          <a class="floating-call" href="tel:07968217216" title="Consult Us">
+            <i class="fa fa-solid fa-phone"></i><br>
+          </a>
+          <a class="floating-whattsapp" href="https://api.whatsapp.com/send?phone=+918689857962&text=Hi!%20I%27m%20Interested%20In%20Shapoorji+Sarova,+Kandivali+East,+Mumbai.%20Please%20Share%20Details" title="Whattsapp Us on">
 
-              <i class="fa fa-solid fa-envelope"></i><br>Enquire Now
-            </a>
+            <i class="fab fa-solid fa-whatsapp"></i><br>
+          </a>
         </div>
       </div>
       <div class="floating-desktop">
         <div class="card-form">
           <form method="POST" id="stickyForm" action="sendmail.php">
-            <input type="hidden" name="stickycheck" id="stickycheck" class="path">
             <input type="hidden" name="formtype" id="formtype" value="sticky">
+			  		<input type="hidden" name="srdno" id="srdno" value="65b0c018735dafcc7e5fc88e">
             <div class="form-group">
               <h2>Enquire Now</h2>
             </div>
@@ -963,13 +999,6 @@
               <input type="text" name="stickycontact" id="stickycontact" placeholder="Mobile No" class="form-control">
             </div>
             <div class="form-group">
-              <a class="btn btn-primary sendStickyOtp" style="color:#fff;">Send OTP</a>
-            </div>
-            <div class="form-group" style="width:6.5% !important;">
-              <label class="label">Enter OTP</label>
-              <input type="text" class="form-control" name="stickyotp" id="stickyotp" placeholder="Enter OTP">
-            </div>
-            <div class="form-group">
               <input type="submit" class="btn btn-custom btn-white" value="Enquire Now">
             </div>
           </form>
@@ -994,8 +1023,8 @@
               <div class="col-md-8">
                 <div class="card-form">
                   <form method="POST" action="sendmail.php" id="modalForm">
-                    <input type="hidden" name="modalcheck" id="modalcheck" class="path">
 			  		<input type="hidden" name="formtype" id="formtype" value="modal">
+			  		<input type="hidden" name="srdno" id="srdno" value="65b0c018735dafcc7e5fc88e">
                 <div class="form-group">
                   <label class="label">Name</label>
                   <input type="text" class="form-control" name="modalname" id="modalname" placeholder="Enter Name">
@@ -1253,13 +1282,6 @@
                   <label class="label">Contact Number</label>
                   <input type="number" class="form-control" name="modalcontact" id="modalcontact"
                     placeholder="Enter Contact Number">
-                </div>
-                <div class="form-group">
-                    <a class="btn btn-primary sendModalOtp" style="color:#fff;">Send OTP</a>
-                </div>
-                <div class="form-group">
-                  <label class="label">Enter OTP</label>
-                  <input type="text" class="form-control" name="otp" id="otp" placeholder="Enter OTP">
                 </div>
                 <div class="form-group">
                   <button type="submit" class="btn btn-custom">Submit</button>

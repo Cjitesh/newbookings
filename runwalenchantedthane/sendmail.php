@@ -12,7 +12,7 @@
            'countrycode' => $_POST['countrycode'],
            'campaign' => '488',
            'project' => '284',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'sticky'){
@@ -28,7 +28,7 @@
            'countrycode' => $_POST['countrycode'],
            'campaign' => '488',
            'project' => '284',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'modal'){
@@ -44,7 +44,7 @@
            'countrycode' => $_POST['countrycode'],
            'campaign' => '488',
            'project' => '284',
-           'toemail' => 'mumbaimarketing2012@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}

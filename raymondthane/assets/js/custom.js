@@ -30,6 +30,7 @@ $(document).ready(function () {
         required: true,
     },
  otp:{
+        required: true,
   equalTo: "#modalcheck",
  },
     modalcontact:{
@@ -64,10 +65,10 @@ $(document).on('click','.sendModalOtp',function(e){
   e.preventDefault();
   var path = 'NB Raymond Thane';
   var contact = $('#modalcontact').val();
-  var mobile = '7039573195';
+  var mobile = '9082090861';
       var name = $('#modalname').val();
       var email = $('#modalemail').val();
-      var numbers = '7039573195,9137692059';
+      var numbers = '9082090861,9137692059';
     var countrycode = $('#countrycode').val();
   var path2 = 'OTP-NB Raymond Thane'
   $.ajax({
@@ -144,10 +145,10 @@ $(document).on('click','.sendBannerOtp',function(e){
   e.preventDefault();
   var path = 'NB Raymond Thane';
   var contact = $('#bannercontact').val();
-  var mobile = '7039573195';
+  var mobile = '9082090861';
       var name = $('#bannername').val();
       var email = $('#banneremail').val();
-      var numbers = '7039573195,9137692059';
+      var numbers = '9082090861,9137692059';
     var countrycode = $('#countrycode').val();
   var path2 = 'OTP-NB Raymond Thane'
   $.ajax({
@@ -223,10 +224,10 @@ $(document).on('click','.sendStickyOtp',function(e){
   e.preventDefault();
   var path = 'NB Raymond Thane';
   var contact = $('#stickycontact').val();
-  var mobile = '7039573195';
+  var mobile = '9082090861';
       var name = $('#stickyname').val();
       var email = $('#stickyemail').val();
-      var numbers = '7039573195,9137692059';
+      var numbers = '9082090861,9137692059';
     var countrycode = $('#countrycode').val();
   var path2 = 'OTP-NB Raymond Thane'
   $.ajax({

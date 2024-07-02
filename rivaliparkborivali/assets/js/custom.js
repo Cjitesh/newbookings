@@ -61,10 +61,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Rivali Park Borivali';
     var contact = $('#modalcontact').val();
-    var mobile = '9870752405';
+    var mobile = '8976738434';
         var name = $('#modalname').val();
         var email = $('#modalemail').val();
-        var numbers = '9870752405,9819946699,9137692059';
+        var numbers = '9819777057,9310863636,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Rivali Park Borivali'
     $.ajax({
@@ -141,10 +141,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Rivali Park Borivali';
     var contact = $('#bannercontact').val();
-    var mobile = '9870752405';
+    var mobile = '8976738434';
         var name = $('#bannername').val();
         var email = $('#banneremail').val();
-        var numbers = '9870752405,9819946699,9137692059';
+        var numbers = '9819777057,9310863636,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Rivali Park Borivali'
     $.ajax({
@@ -221,10 +221,10 @@ $(document).on('click','#formButton',function(){
     e.preventDefault();
     var path = 'Rivali Park Borivali';
     var contact = $('#stickycontact').val();
-    var mobile = '9870752405';
+    var mobile = '8976738434';
         var name = $('#stickyname').val();
         var email = $('#stickyemail').val();
-        var numbers = '9870752405,9819946699,9137692059';
+        var numbers = '9819777057,9310863636,9137692059';
       var countrycode = $('#countrycode').val();
     var path2 = 'OTP- NB Rivali Park Borivali'
     $.ajax({

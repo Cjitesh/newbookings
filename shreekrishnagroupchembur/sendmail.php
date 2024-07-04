@@ -7,12 +7,12 @@
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
            'path' => 'NB SKG Chembur',
-          	'mobile' => '9892803933,9137692059',
+          	'mobile' => '9892803933,9137124089,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '656',
            'project' => '400',
-           'toemail' => 'shekhar.anush1@gmail.com',
+           'toemail' => 'citygainsmumbai@gmail.com',
            'fromname' => 'New Bookings',
        );
         $data2 = array(
@@ -30,12 +30,12 @@
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
            'path' => 'NB SKG Chembur',
-          	'mobile' => '9892803933,9137692059',
+          	'mobile' => '9892803933,9137124089,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '656',
            'project' => '400',
-           'toemail' => 'shekhar.anush1@gmail.com',
+           'toemail' => 'citygainsmumbai@gmail.com',
            'fromname' => 'New Bookings',
        );
        $data2 = array(
@@ -53,12 +53,12 @@
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
            'path' => 'NB SKG Chembur',
-          	'mobile' => '9892803933,9137692059',
+          	'mobile' => '9892803933,9137124089,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '656',
            'project' => '400',
-           'toemail' => 'shekhar.anush1@gmail.com',
+           'toemail' => 'citygainsmumbai@gmail.com',
            'fromname' => 'New Bookings',
        );
        $data2 = array(

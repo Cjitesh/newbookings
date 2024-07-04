@@ -1,13 +1,11 @@
 <?php
 	if($_POST['formtype'] == 'banner'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['bannername'],
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
            'path' => 'NB VAIBHAVLAXMI VIKHROLI',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '8097186394,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '653',
@@ -17,13 +15,11 @@
        );
 	}elseif($_POST['formtype'] == 'sticky'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['stickyname'],
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
            'path' => 'NB VAIBHAVLAXMI VIKHROLI',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '8097186394,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '653',
@@ -33,13 +29,11 @@
        );
 	}elseif($_POST['formtype'] == 'modal'){
 		$data = array(
-			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
-			'srdno' => $_POST['srdno'],
            'name' => $_POST['modalname'],
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
            'path' => 'NB VAIBHAVLAXMI VIKHROLI',
-          	'mobile' => '9930653494,9137692059',
+          	'mobile' => '8097186394,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '653',

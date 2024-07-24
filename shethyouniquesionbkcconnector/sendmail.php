@@ -1,6 +1,8 @@
 <?php
 	if($_POST['formtype'] == 'banner'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['bannername'],
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
@@ -15,6 +17,8 @@
        );
 	}elseif($_POST['formtype'] == 'sticky'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['stickyname'],
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
@@ -29,6 +33,8 @@
        );
 	}elseif($_POST['formtype'] == 'modal'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['modalname'],
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],

@@ -29,7 +29,7 @@
 
           <div class="col-md-3 col-12">
             <a class="navbar-brand" href="index.html">
-              <img src="assets/images/home-logo.png" class="img-fluid">
+              <!-- <img src="assets/images/home-logo.png" class="img-fluid"> -->
               <div class="brand-logo">
                 <p class="builder">RAHEJA</p>
                 <p class="project">MODERN VIVAREA</p>
@@ -103,7 +103,7 @@
             <div class="inside">
               <h2>RAHEJA MODERN VIVAREA<br>MAHALAXMI</h2>
               <div class="highlight">
-                <p>ULTRA LUXURIOUS BIGGER 3, 3.5 & 4 BHK APARTMENTS STARTS  ₹ 13.50 CR ONWARDS*</p>
+                <p>ULTRA LUXURIOUS BIGGER 3, 3.5 & 4 BHK DECK APARTMENTS STARTS ₹ 13 CR ONWARDS*</p>
               </div>
               <p>Land Parcel: 3.11 Acres</p>
               <p>Floors: 41 Storeys</p>
@@ -119,6 +119,7 @@
               </div>
 
               <form method="POST" action="sendmail.php" id="bannerForm">
+                <input type="hidden" name="srdno" id="srdno" value="6667ff8c5d8deff240adc418">
                 <input type="hidden" name="bannervalidate" id="bannervalidate" class="path">
                 <input type="hidden" name="formtype" id="formtype" value="banner">
                 <div class="form-group">
@@ -383,13 +384,6 @@
                     placeholder="Enter Contact Number">
                 </div>
                 <div class="form-group">
-                  <a class="btn btn-primary sendBannerOtp" style="color:#fff;">Send OTP</a>
-                </div>
-                <div class="form-group">
-                  <label class="label">Enter OTP</label>
-                  <input type="text" name="bannerotp" id="bannerotp" placeholder="Enter OTP" class="form-control">
-                </div>
-                <div class="form-group">
                   <button type="submit" class="btn btn-custom btn-white">Submit</button>
                 </div>
               </form>
@@ -445,17 +439,22 @@
                       <tr>
                         <td>3 BHK</td>
                         <td>1740 Sq.ft.</td>
-                        <td>₹ 13.50 Cr Onwards*</td>
+                        <td>₹ 13 Cr Onwards*</td>
                       </tr>
                       <tr>
                         <td>3.5 BHK</td>
                         <td>2364 Sq.ft.</td>
-                        <td>₹ 18.20 Cr Onwards*</td>
+                        <td>₹ 17.73 Cr Onwards*</td>
                       </tr>
                       <tr>
                         <td>4 BHK</td>
-                        <td>2259 to 3108 Sq.ft.</td>
-                        <td>₹ 17.39 Cr Onwards*</td>
+                        <td>2259 Sq.ft.</td>
+                        <td>₹ 16.94 Cr Onwards*</td>
+                      </tr>
+                      <tr>
+                        <td>4 BHK</td>
+                        <td>3108 Sq.ft.</td>
+                        <td>₹ 23.31 Cr Onwards*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -685,33 +684,39 @@
             <div class="header text-center">
               <h2 class='title'>Disclaimer</h2>
             </div>
-            <p style="font-size:12px;">This website, managed by newbookings.in, serves as an advertisement and
-              information medium.<br>
-              Raheja Modern Vivarea in Mahalaxmi is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900034289 | P51900034288.<br>
-              The marketing of this project is handled by a real estate agent registered under the Real Estate
-              (Regulation and Development) Act 2016 with the MahaRERA number A51800023534.<br>
-              It is not the official website and does not facilitate transactions between the developer and visitors.
+            <p style="font-size:12px;">It is not the official website and does not facilitate transactions between the developer and visitors.
               The information provided on the website is for informational purposes only and should not be considered
               legal advice or a solicitation. Users are advised to independently verify all property/project details
-              before making any decisions.</p>
+              before making any decisions.<br>
+              The marketing of this project is handled by a real estate agent registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number A51800023534.<br>
+              Raheja Modern Vivarea in Mahalaxmi is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900034289 | P51900034288. </p>
               <p style="font-size:12px;">Marketing & Digital Partner- <a href="https://www.performix.in/" target="_blank">Performix Digital</a></p>
+          </div>
+        </div>
+        <div class="row text-center" style="color:#fff;">
+          <div class="col-md-2 col-12">
+            <img src="assets/images/qr1.png" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12">
+            <img src="assets/images/qr2.png" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="floating-mobile">
         <div class="contact">
-          <a class="floating-call" id="formButton" title="Consult Us">
-            <i class="fa fa-solid fa-download"></i><br>Download Brochure
+          <a class="floating-call" href="tel:07968217233" title="Consult Us">
+            <i class="fa fa-solid fa-phone"></i><br>
           </a>
-          <a class="floating-whattsapp" id="formButton" title="Whattsapp Us on">
+          <a class="floating-whattsapp" href="https://api.whatsapp.com/send?phone=+918689857962&text=Hi!%20I%27m%20Interested%20In%20Raheja+Modern+Vivarea%2C+Mahalaxmi%2C+Mumbai.%20Please%20Share%20Details" title="Whattsapp Us on">
 
-            <i class="fa fa-solid fa-envelope"></i><br>Enquire Now
+            <i class="fab fa-solid fa-whatsapp"></i><br>
           </a>
         </div>
       </div>
       <div class="floating-desktop">
         <div class="card-form">
           <form method="POST" id="stickyForm" action="sendmail.php">
+            <input type="hidden" name="srdno" id="srdno" value="6667ff8c5d8deff240adc418">
             <input type="hidden" name="stickycheck" id="stickycheck" class="path">
             <input type="hidden" name="formtype" id="formtype" value="sticky">
             <div class="form-group">
@@ -971,13 +976,6 @@
               <input type="text" name="stickycontact" id="stickycontact" placeholder="Mobile No" class="form-control">
             </div>
             <div class="form-group">
-              <a class="btn btn-primary sendStickyOtp" style="color:#fff;">Send OTP</a>
-            </div>
-            <div class="form-group" style="width:6.5% !important;">
-              <label class="label">Enter OTP</label>
-              <input type="text" class="form-control" name="stickyotp" id="stickyotp" placeholder="Enter OTP">
-            </div>
-            <div class="form-group">
               <input type="submit" class="btn btn-custom btn-white" value="Enquire Now">
             </div>
           </form>
@@ -1002,6 +1000,7 @@
               <div class="col-md-8">
                 <div class="card-form">
                   <form method="POST" action="sendmail.php" id="modalForm">
+                    <input type="hidden" name="srdno" id="srdno" value="6667ff8c5d8deff240adc418">
                     <input type="hidden" name="modalcheck" id="modalcheck" class="path">
                     <input type="hidden" name="formtype" id="formtype" value="modal">
                     <div class="form-group">
@@ -1266,13 +1265,6 @@
                       <label class="label">Contact Number</label>
                       <input type="number" class="form-control" name="modalcontact" id="modalcontact"
                         placeholder="Enter Contact Number">
-                    </div>
-                    <div class="form-group">
-                      <a class="btn btn-primary sendModalOtp" style="color:#fff;">Send OTP</a>
-                    </div>
-                    <div class="form-group">
-                      <label class="label">Enter OTP</label>
-                      <input type="text" class="form-control" name="otp" id="otp" placeholder="Enter OTP">
                     </div>
                     <div class="form-group">
                       <button type="submit" class="btn btn-custom">Submit</button>

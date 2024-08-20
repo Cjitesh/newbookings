@@ -1,44 +1,50 @@
 <?php
 	if($_POST['formtype'] == 'banner'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['bannername'],
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
-           'path' => 'Verified- NB Sugee Marina Bay',
-          	'mobile' => '9819777057,9310863636,9137692059',
+           'path' => 'NB SUGEE MARINA BAY',
+          	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '470',
            'project' => '268',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'sticky'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['stickyname'],
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
-           'path' => 'Verified- NB Sugee Marina Bay',
-          	'mobile' => '9819777057,9310863636,9137692059',
+           'path' => 'NB SUGEE MARINA BAY',
+          	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '470',
            'project' => '268',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'modal'){
 		$data = array(
+			'apiKey' => 'e9c33d8faae7e50260c045825ce52c86',
+			'srdno' => $_POST['srdno'],
            'name' => $_POST['modalname'],
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
-           'path' => 'Verified- NB Sugee Marina Bay',
-          	'mobile' => '9819777057,9310863636,9137692059',
+           'path' => 'NB SUGEE MARINA BAY',
+          	'mobile' => '9930653494,9137692059',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '470',
            'project' => '268',
-           'toemail' => 'suryabhanmaurya14@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}

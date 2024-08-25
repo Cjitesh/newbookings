@@ -7,12 +7,12 @@
            'email' => $_POST['banneremail'],
            'contact' => $_POST['bannercontact'],
            'path' => 'NB RAHEJA KANJURMARG',
-          	'mobile' => '9137692059,9920090505',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '690',
            'project' => '424',
-           'toemail' => 'sanparmar@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'sticky'){
@@ -23,12 +23,12 @@
            'email' => $_POST['stickyemail'],
            'contact' => $_POST['stickycontact'],
            'path' => 'NB RAHEJA KANJURMARG',
-          	'mobile' => '9137692059,9920090505',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '690',
            'project' => '424',
-           'toemail' => 'sanparmar@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}elseif($_POST['formtype'] == 'modal'){
@@ -39,12 +39,12 @@
            'email' => $_POST['modalemail'],
            'contact' => $_POST['modalcontact'],
            'path' => 'NB RAHEJA KANJURMARG',
-          	'mobile' => '9137692059,9920090505',
+          	'mobile' => '9137692059,9930653494',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
            'campaign' => '690',
            'project' => '424',
-           'toemail' => 'sanparmar@gmail.com',
+           'toemail' => 'shekhar.anush1@gmail.com',
            'fromname' => 'New Bookings',
        );
 	}

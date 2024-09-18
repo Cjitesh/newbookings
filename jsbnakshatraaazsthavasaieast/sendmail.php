@@ -8,8 +8,8 @@
           	'mobile' => '9137692059,9920657573',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '703',
-           'project' => '433',
+           'campaign' => '702',
+           'project' => '432',
            'toemail' => 'connect@spacemagnate.in',
            'fromname' => 'New Bookings',
        );
@@ -22,8 +22,8 @@
           	'mobile' => '9137692059,9920657573',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '703',
-           'project' => '433',
+           'campaign' => '702',
+           'project' => '432',
            'toemail' => 'connect@spacemagnate.in',
            'fromname' => 'New Bookings',
        );
@@ -36,8 +36,8 @@
           	'mobile' => '9137692059,9920657573',
 			//'mobile' => '7972844511',
            'countrycode' => $_POST['countrycode'],
-           'campaign' => '703',
-           'project' => '433',
+           'campaign' => '702',
+           'project' => '432',
            'toemail' => 'connect@spacemagnate.in',
            'fromname' => 'New Bookings',
        );

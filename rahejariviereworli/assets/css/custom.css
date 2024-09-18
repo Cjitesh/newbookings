@@ -1,7 +1,4 @@
-.mtb-10{
-	margin-top:10px;
-	margin-bottom: 10px;
-}
+
 #myHeader{
     position: static;
     display: block;
@@ -170,7 +167,8 @@ section{
     margin-bottom: 10px;
 }
 .navbar-brand img{
-    width: 50%;
+    width: 140px;
+    height: 72px;
 }
 .slider .form .header .title{
     color: #bd7a0d;

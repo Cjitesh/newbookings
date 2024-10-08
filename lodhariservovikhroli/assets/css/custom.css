@@ -79,7 +79,7 @@ section{
 .navbar-brand .brand-logo .location{
     font-size: 12px;
     background-color: #bd7a0d;
-    padding: 6px 0px;
+    padding: 5px 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -167,7 +167,8 @@ section{
     margin-bottom: 10px;
 }
 .navbar-brand img{
-    width: 50%;
+    width: 140px;
+    height: 72px;
 }
 .slider .form .header .title{
     color: #bd7a0d;
@@ -194,7 +195,7 @@ section{
     margin-bottom: 0px;
 }
 .slider .inside .highlight{
-    padding: 20px 35px;
+    padding: 20px 25px;
     border:2px solid #bd7a0d;
     margin-bottom: 10px;
     border-radius: 15px;

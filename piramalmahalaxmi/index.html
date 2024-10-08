@@ -28,7 +28,7 @@
 
           <div class="col-md-3 col-12">
             <a class="navbar-brand" href="index.html">
-              <img src="assets/images/home-logo.png" class="img-fluid">
+              <!-- <img src="assets/images/home-logo.png" class="img-fluid"> -->
               <div class="brand-logo">
                 <p class="builder">PIRAMAL</p>
                 <p class="project">MAHALAXMI</p>
@@ -100,17 +100,17 @@
           </div>
           <div class="col-md-5 col-12">
             <div class="inside">
-              <h2>PIRAMAL MAHALAXMI<br>SOUTH MUMBAI</h2>
+              <h2 style="font-size: 16px;">PIRAMAL MAHALAXMI<br>SOUTH MUMBAI</h2>
               <div class="highlight">
-                <p>RACECOURSE VIEW 2, 3 & 4 BHK APARTMENTS STARTS  ₹ 3.87 CR ONWARDS*</p>
+                <p>RACECOURSE VIEW 2, 3 & 4 BHK APARTMENTS STARTS  ₹ 4.79 CR ONWARDS*</p>
               </div>
               <p>Land Parcel: 4 Acres</p>
-              <p>Floors: 75 Storeys</p>
+              <p>Floors: 49, 50 & 66 Storeys</p>
               <p>Possession: December 2024*</p>
               <div class="highlight">
                 <p>Flexi Payment Plan<br>Zero Stamp Duty & Floor Rise<br>Launch Benefits Starts From ₹9 Lacs*<br>Vaastu Compliant Homes</p>
               </div>
-              <a href="#" class="btn btn-custom btn-white">Enquire Now</a>
+              <a href="#" class="btn btn-custom btn-white" id="formButton">Enquire Now</a>
             </div>
             <div class="form">
               <div class="header">
@@ -118,6 +118,7 @@
               </div>
 
               <form method="POST" action="sendmail.php" id="bannerForm">
+                <input type="hidden" name="srdno" id="srdno" value="66fe2fd9735daf79d604f9c0">
                 <input type="hidden" name="bannervalidate" id="bannervalidate" class="path">
                 <input type="hidden" name="formtype" id="formtype" value="banner">
                 <div class="form-group">
@@ -382,13 +383,6 @@
                     placeholder="Enter Contact Number">
                 </div>
                 <div class="form-group">
-                  <a class="btn btn-primary sendBannerOtp" style="color:#fff;">Send OTP</a>
-                </div>
-                <div class="form-group">
-                  <label class="label">Enter OTP</label>
-                  <input type="text" name="bannerotp" id="bannerotp" placeholder="Enter OTP" class="form-control">
-                </div>
-                <div class="form-group">
                   <button type="submit" class="btn btn-custom btn-white">Submit</button>
                 </div>
               </form>
@@ -411,7 +405,7 @@
             </div>
             <div class="content">
               <p>Discover Piramal Mahalaxmi, an iconic presence within the upscale fabric of South Mumbai, offering panoramic vistas of the expansive ocean against the city's skyline. These towering skyscrapers feature luxurious 2, 3, and 4 BHK residences, adorned with contemporary landscaping and enticing amenities. A world of exclusive experiences awaits, from the infinity-edge pool to the Climbing Wall and serene Yoga Room. The uniqueness lies in its privileged neighborhood, housing esteemed establishments such as the St. Regis Hotel, Willingdon Sports Club, High Street Phoenix Mall, Wockhardt Hospital, Mahalaxmi Racecourse, and more. Seamlessly connected, the property enjoys proximity to the Lalbaug Flyover, Mahalaxmi Railway Station, and Eastern Freeway, ensuring swift access to business hubs like Lower Parel, BKC, and Nariman Point within 20-30 minutes. Embrace the ocean breeze and revel in sparkling cityscape views at Piramal Mahalaxmi.</p>
-              <a class="btn btn-custom">Know More</a>
+              <a class="btn btn-custom" id="formButton">Know More</a>
             </div>
           </div>
         </div>
@@ -431,9 +425,6 @@
             </div>
             <div class="row">
               <div class="col-md-12 col-12">
-                <div class="header">
-                  <h2 class="title">NORTH TOWER</h2>
-                </div>
                 <div class="table-responsive">
                   <table class="table table-bordered table-striped">
                     <thead>
@@ -446,73 +437,23 @@
                     <tbody>
                       <tr>
                         <td>2 BHK</td>
-                        <td>770 to 860 Sq.ft.</td>
-                        <td>₹ 3.87 Cr Onwards*</td>
+                        <td> 750-795 Sq.ft.</td>
+                        <td>₹ 4.79 Cr Onwards*</td>
                       </tr>
                       <tr>
                         <td>3 BHK</td>
-                        <td>1140 to 1290 Sq.ft.</td>
-                        <td>₹ 7.19 Cr Onwards*</td>
+                        <td>1050-1460 Sq.ft.</td>
+                        <td>₹ 7.99 Cr Onwards*</td>
                       </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-12">
-                <div class="header">
-                  <h2 class="title">CENTRAL TOWER</h2>
-                </div>
-                <div class="table-responsive">
-                  <table class="table table-bordered table-striped">
-                    <thead>
-                      <tr>
-                        <th>Configuration</th>
-                        <th>Area</th>
-                        <th>Price</th>
-                      </tr>
-                    </thead>
-                    <tbody>
                       <tr>
                         <td>3 BHK</td>
-                        <td>1450 Sq.ft.</td>
-                        <td>₹ 8.99 Cr Onwards*</td>
+                        <td>1380 Sq.ft.</td>
+                        <td>₹ 10.89 Cr Onwards*</td>
                       </tr>
                       <tr>
                         <td>4 BHK</td>
                         <td>1850 Sq.ft.</td>
-                        <td>₹ 11.72 Cr Onwards*</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-12">
-                <div class="header">
-                  <h2 class="title">SOUTH TOWER</h2>
-                </div>
-                <div class="table-responsive">
-                  <table class="table table-bordered table-striped">
-                    <thead>
-                      <tr>
-                        <th>Configuration</th>
-                        <th>Area</th>
-                        <th>Price</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>2 BHK</td>
-                        <td>800 Sq.ft.</td>
-                        <td>₹ 4.29 Cr Onwards*</td>
-                      </tr>
-                      <tr>
-                        <td>3 BHK</td>
-                        <td>1050 to 1380 Sq.ft.</td>
-                        <td>₹ 6.90 Cr Onwards*</td>
+                        <td>₹ 15 Cr Onwards*</td>
                       </tr>
                     </tbody>
                   </table>
@@ -689,7 +630,7 @@
 
             <div class="contact-location text-center">
               <h3>Office</h3>
-              <p>Piramal Mahalaxmi,<br> Sane Guruji Marg Mahalaxmi, Jacob Circle,<br> Mumbai, Maharashtra 400011.</p>
+              <p>Piramal Mahalaxmi, Sane Guruji Marg Mahalaxmi, Jacob Circle, Mumbai, Maharashtra 400011.</p>
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -742,33 +683,42 @@
             <div class="header text-center">
               <h2 class='title'>Disclaimer</h2>
             </div>
-            <p style="font-size:12px;">This website, managed by newbookings.in, serves as an advertisement and
-              information medium.<br>
-              Piramal Mahalaxmi in South Mumbai is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900021057, P51900015854.<br>
-              The marketing of this project is handled by a real estate agent registered under the Real Estate
-              (Regulation and Development) Act 2016 with the MahaRERA number A51800023534.<br>
+            <p style="font-size:12px;">
               It is not the official website and does not facilitate transactions between the developer and visitors.
               The information provided on the website is for informational purposes only and should not be considered
               legal advice or a solicitation. Users are advised to independently verify all property/project details
-              before making any decisions.</p>
+              before making any decisions.<br>The marketing of this project is handled by a real estate agent Revantage Advisory and Realtors LLP registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: A51900038322.<br>Piramal Mahalaxmi in South Mumbai is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900021057, P51900016482 & P51900015854.</p>
               <p style="font-size:12px;">Marketing & Digital Partner- <a href="https://www.performix.in/" target="_blank">Performix Digital</a></p>
+          </div>
+        </div>
+        
+        <div class="row text-center" style="color:#fff;">
+          <div class="col-md-2 col-12">
+            <img src="assets/images/qr1.webp" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12">
+            <img src="assets/images/qr2.webp" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-12">
+            <img src="assets/images/qr3.webp" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="floating-mobile">
         <div class="contact">
-          <a class="floating-call" id="formButton" title="Consult Us">
-            <i class="fa fa-solid fa-download"></i><br>Download Brochure
+          <a class="floating-call" href="tel:07968217233" title="Consult Us">
+            <i class="fa fa-solid fa-phone"></i><br>
           </a>
-          <a class="floating-whattsapp" id="formButton" title="Whattsapp Us on">
+          <a class="floating-whattsapp" href="https://api.whatsapp.com/send?phone=+918689857962&text=Hi!%20I%27m%20Interested%20In%20Piramal+Mahalaxmi.%20Please%20Share%20Details" title="Whattsapp Us on">
 
-            <i class="fa fa-solid fa-envelope"></i><br>Enquire Now
+            <i class="fab fa-solid fa-whatsapp"></i><br>
           </a>
         </div>
       </div>
       <div class="floating-desktop">
         <div class="card-form">
-          <form method="POST" id="stickyForm" action="sendmail.php">
+          <form method="POST" id="stickyForm" action="sendmail.php"></form>
+            <input type="hidden" name="srdno" id="srdno" value="66fe2fd9735daf79d604f9c0">
             <input type="hidden" name="stickycheck" id="stickycheck" class="path">
             <input type="hidden" name="formtype" id="formtype" value="sticky">
             <div class="form-group">
@@ -1028,13 +978,6 @@
               <input type="text" name="stickycontact" id="stickycontact" placeholder="Mobile No" class="form-control">
             </div>
             <div class="form-group">
-              <a class="btn btn-primary sendStickyOtp" style="color:#fff;">Send OTP</a>
-            </div>
-            <div class="form-group" style="width:6.5% !important;">
-              <label class="label">Enter OTP</label>
-              <input type="text" class="form-control" name="stickyotp" id="stickyotp" placeholder="Enter OTP">
-            </div>
-            <div class="form-group">
               <input type="submit" class="btn btn-custom btn-white" value="Enquire Now">
             </div>
           </form>
@@ -1059,6 +1002,7 @@
               <div class="col-md-8">
                 <div class="card-form">
                   <form method="POST" action="sendmail.php" id="modalForm">
+                    <input type="hidden" name="srdno" id="srdno" value="66fe2fd9735daf79d604f9c0">
                     <input type="hidden" name="modalcheck" id="modalcheck" class="path">
                     <input type="hidden" name="formtype" id="formtype" value="modal">
                     <div class="form-group">
@@ -1323,13 +1267,6 @@
                       <label class="label">Contact Number</label>
                       <input type="number" class="form-control" name="modalcontact" id="modalcontact"
                         placeholder="Enter Contact Number">
-                    </div>
-                    <div class="form-group">
-                      <a class="btn btn-primary sendModalOtp" style="color:#fff;">Send OTP</a>
-                    </div>
-                    <div class="form-group">
-                      <label class="label">Enter OTP</label>
-                      <input type="text" class="form-control" name="otp" id="otp" placeholder="Enter OTP">
                     </div>
                     <div class="form-group">
                       <button type="submit" class="btn btn-custom">Submit</button>

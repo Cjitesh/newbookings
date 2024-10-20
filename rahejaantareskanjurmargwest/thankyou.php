@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-<title>RAHEJA NEW LAUNCH KANJURMARG WEST</title>
+<title>Raheja Antares Kanjurmarg</title>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-808076997"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-808076997'); </script>
@@ -12,7 +12,7 @@
 <center>
 <br>
 <h1 style="color:#053f64;font-size:50px">Thank you!</h1>
-<h3  style="color:#053f64;font-size:30px">Thank you for enquiring in our project RAHEJA NEW LAUNCH KANJURMARG WEST<br> Soon you will recieve a call back from our Team.</h3>
+<h3  style="color:#053f64;font-size:30px">Thank you for enquiring in our project Raheja Antares Kanjurmarg<br> Soon you will recieve a call back from our Team.</h3>
 
 <br>
 <script type="text/javascript">

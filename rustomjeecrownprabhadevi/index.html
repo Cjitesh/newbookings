@@ -28,7 +28,7 @@
 
           <div class="col-md-3 col-12">
             <a class="navbar-brand" href="index.html">
-              <img src="assets/images/home-logo.png" class="img-fluid">
+              <!-- <img src="assets/images/home-logo.png" class="img-fluid"> -->
               <div class="brand-logo">
                 <p class="builder">RUSTOMJEE</p>
                 <p class="project">CROWN</p>
@@ -102,15 +102,15 @@
             <div class="inside">
               <h2>RUSTOMJEE CROWN<br>PRABHADEVI</h2>
               <div class="highlight">
-                <p>ULTRA LUXURIOUS 3, 4 & 5 BHK APARTMENTS STARTS ₹ 9.53 CR ONWARDS*</p>
+                <p>ULTRA LUXURIOUS 3, 4 & 5 BHK APARTMENTS STARTS ₹ 9.45 CR ALL INCLUSIVE ONWARDS*</p>
               </div>
-              <p>Land Parcel: 5.8 Acres</p>
-              <p>Floors: 68 Storeys</p>
-              <p>Possession: Tower A: Ready to Move, Tower B: December 2023 & Tower C: December 2024</p>
+              <p>Land Parcel: 5.75 Acres</p>
+              <p>Floors: 67 & 68 Storeys</p>
+              <!-- <p>Possession: Tower A: Ready to Move, Tower B: December 2023 & Tower C: December 2024</p> -->
               <div class="highlight">
                 <p>20:80 Payment Plan<br>A palatial open podium spread across 2.52 acres<br>Jodi Options Available<br>Vastu Compliant Homes</p>
               </div>
-              <a href="#" class="btn btn-custom btn-white">Enquire Now</a>
+              <a href="#" class="btn btn-custom btn-white" id="formButton">Enquire Now</a>
             </div>
             <div class="form">
               <div class="header">
@@ -118,6 +118,7 @@
               </div>
 
               <form method="POST" action="sendmail.php" id="bannerForm">
+                <input type="hidden" name="srdno" id="srdno" value="66fe30ea735daf79d604fb24">
                 <input type="hidden" name="bannervalidate" id="bannervalidate" class="path">
                 <input type="hidden" name="formtype" id="formtype" value="banner">
                 <div class="form-group">
@@ -382,13 +383,6 @@
                     placeholder="Enter Contact Number">
                 </div>
                 <div class="form-group">
-                  <a class="btn btn-primary sendBannerOtp" style="color:#fff;">Send OTP</a>
-                </div>
-                <div class="form-group">
-                  <label class="label">Enter OTP</label>
-                  <input type="text" name="bannerotp" id="bannerotp" placeholder="Enter OTP" class="form-control">
-                </div>
-                <div class="form-group">
                   <button type="submit" class="btn btn-custom btn-white">Submit</button>
                 </div>
               </form>
@@ -411,7 +405,7 @@
             </div>
             <div class="content">
               <p>Nestled in the verdant streets of Prabhadevi, Rustomjee Crown offers a lavish lifestyle akin to a bed of roses. Its exquisite 3, 4, & 5 BHK residences and deluxe duplexes envelop you in luxury with walk-in wardrobes, marble floors, wine cabinets, and premium bathroom fittings. Exceptional amenities include lagoon pools, cloud walks, hot tubs, cabanas, viewing decks, and serene lounges. Surrounded by the charming ambiance of Prabhadevi, the property is proximate to iconic landmarks such as Palladium & High Street Phoenix Mall, Worli Sea Face, Mahalaxmi Race Course, and Siddhivinayak Temple. Access top-tier education, healthcare, and entertainment, along with quick connectivity to Mahalaxmi, Worli, Dadar, Elphinstone Road, Lower Parel, and BKC. In essence, Rustomjee Crown offers an extraordinary home where the ocean breeze and captivating Mumbai coastline views effortlessly blend.</p>
-              <a class="btn btn-custom">Know More</a>
+              <a class="btn btn-custom" id="formButton">Know More</a>
             </div>
           </div>
         </div>
@@ -443,18 +437,33 @@
                     <tbody>
                       <tr>
                         <td>3 BHK</td>
-                        <td>1350 to 1470 Sq.ft.</td>
-                        <td>₹ 9.53 Cr Onwards*</td>
+                        <td>1350 Sq.ft.</td>
+                        <td>₹ 9.45 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
+                      </tr>
+                      <tr>
+                        <td>3 BHK</td>
+                        <td>1483 Sq.ft.</td>
+                        <td>₹ 10.62 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                       <tr>
                         <td>4 BHK</td>
-                        <td>1700 to 2560 Sq.ft.</td>
-                        <td>₹ 14.38 Cr Onwards*</td>
+                        <td>1700 Sq.ft.</td>
+                        <td>₹ 13.50 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
+                      </tr>
+                      <tr>
+                        <td>4 BHK</td>
+                        <td>2500 Sq.ft.</td>
+                        <td>₹ 19.80 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                       <tr>
                         <td>5 BHK</td>
-                        <td>3072 Sq.ft.</td>
-                        <td>₹ 26.14 Cr Onwards*</td>
+                        <td>2966 Sq.ft.</td>
+                        <td>₹ 21.24 Cr Onwards*</td>
+                        <td><a class="btn btn-custom" id="formButton" data="3BHK Plan Form">On Request</a></td>
                       </tr>
                     </tbody>
                   </table>
@@ -684,33 +693,33 @@
             <div class="header text-center">
               <h2 class='title'>Disclaimer</h2>
             </div>
-            <p style="font-size:12px;">This website, managed by newbookings.in, serves as an advertisement and
-              information medium.<br>
-              Rustomjee Crown in Prabhadevi is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900003268 | P51900006367.<br>
-              The marketing of this project is handled by a real estate agent registered under the Real Estate
-              (Regulation and Development) Act 2016 with the MahaRERA number A51800023534.<br>
+            <p style="font-size:12px;">
               It is not the official website and does not facilitate transactions between the developer and visitors.
               The information provided on the website is for informational purposes only and should not be considered
               legal advice or a solicitation. Users are advised to independently verify all property/project details
-              before making any decisions.</p>
+              before making any decisions.<br>
+              The marketing of this project is handled by a real estate agent registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number A51900038322.<br>
+              Rustomjee Crown in Prabhadevi is a real estate project registered under the Real Estate (Regulation and Development) Act 2016 with the MahaRERA number: P51900003268 |and P51900006367.
+             </p>
               <p style="font-size:12px;">Marketing & Digital Partner- <a href="https://www.performix.in/" target="_blank">Performix Digital</a></p>
           </div>
         </div>
       </div>
       <div class="floating-mobile">
         <div class="contact">
-          <a class="floating-call" id="formButton" title="Consult Us">
-            <i class="fa fa-solid fa-download"></i><br>Download Brochure
+          <a class="floating-call" href="tel:09164122836" title="Consult Us">
+            <i class="fa fa-solid fa-phone"></i><br>
           </a>
-          <a class="floating-whattsapp" id="formButton" title="Whattsapp Us on">
+          <a class="floating-whattsapp" href="https://api.whatsapp.com/send?phone=+918689857962&text=Hi!%20I%27m%20Interested%20In%20Rustomjee+Crown,%20Prabhadevi.%20Please%20Share%20Details" title="Whattsapp Us on">
 
-            <i class="fa fa-solid fa-envelope"></i><br>Enquire Now
+            <i class="fab fa-solid fa-whatsapp"></i><br>
           </a>
         </div>
       </div>
       <div class="floating-desktop">
         <div class="card-form">
           <form method="POST" id="stickyForm" action="sendmail.php">
+            <input type="hidden" name="srdno" id="srdno" value="66fe30ea735daf79d604fb24">
             <input type="hidden" name="stickycheck" id="stickycheck" class="path">
             <input type="hidden" name="formtype" id="formtype" value="sticky">
             <div class="form-group">
@@ -970,13 +979,6 @@
               <input type="text" name="stickycontact" id="stickycontact" placeholder="Mobile No" class="form-control">
             </div>
             <div class="form-group">
-              <a class="btn btn-primary sendStickyOtp" style="color:#fff;">Send OTP</a>
-            </div>
-            <div class="form-group" style="width:6.5% !important;">
-              <label class="label">Enter OTP</label>
-              <input type="text" class="form-control" name="stickyotp" id="stickyotp" placeholder="Enter OTP">
-            </div>
-            <div class="form-group">
               <input type="submit" class="btn btn-custom btn-white" value="Enquire Now">
             </div>
           </form>
@@ -1001,6 +1003,7 @@
               <div class="col-md-8">
                 <div class="card-form">
                   <form method="POST" action="sendmail.php" id="modalForm">
+                    <input type="hidden" name="srdno" id="srdno" value="66fe30ea735daf79d604fb24">
                     <input type="hidden" name="modalcheck" id="modalcheck" class="path">
                     <input type="hidden" name="formtype" id="formtype" value="modal">
                     <div class="form-group">
@@ -1265,13 +1268,6 @@
                       <label class="label">Contact Number</label>
                       <input type="number" class="form-control" name="modalcontact" id="modalcontact"
                         placeholder="Enter Contact Number">
-                    </div>
-                    <div class="form-group">
-                      <a class="btn btn-primary sendModalOtp" style="color:#fff;">Send OTP</a>
-                    </div>
-                    <div class="form-group">
-                      <label class="label">Enter OTP</label>
-                      <input type="text" class="form-control" name="otp" id="otp" placeholder="Enter OTP">
                     </div>
                     <div class="form-group">
                       <button type="submit" class="btn btn-custom">Submit</button>

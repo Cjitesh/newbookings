@@ -1,6 +1,8 @@
 <!Doctype html>
 <html>
 <head>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-808076997"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-808076997'); </script>
+<!-- Event snippet for CSR- NB- Birla Anayu Malabar Hill (1) conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-808076997/-3nJCLKI_94ZEMWNqYED'}); </script>
 <title>BIRLA ANAYU, WALKESHWAR, MALABAR HILL - BY BIRLA ESTATES</title>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
